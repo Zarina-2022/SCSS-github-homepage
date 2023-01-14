@@ -1,0 +1,70 @@
+.Header {
+    background-color: $header-bg;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+
+    &-logo {
+        margin-left: 16px;
+
+        svg {
+            width: 32px;
+            height: 32px;
+            color: #fff;
+        }
+    }
+
+    &-search {
+        position: relative;
+
+        input {
+            background-color: hsla(0, 0%, 100%, .125);
+            width: 300px;
+            height: 25px;
+            padding: 7px;
+            font-size: 16px;
+            color: #fff;
+            border: 1px solid #57606A;
+            outline: #57606A;
+            margin: 0px 16px;
+            border-radius: 3px;
+
+            &::-webkit-input-placeholder {
+                color: #ccc;
+            }
+        }
+
+        svg {
+            position: absolute;
+            right: 25px;
+            top: 6px;
+            color: #ccc;
+        }
+    }
+
+    &-links {
+        a {
+            color: #ccc;
+            margin-right: 16px;
+            font:
+                $fontFamily;
+            size: 14px;
+            transition: all ease 0.3s;
+
+            &:hover{
+                color: #fff;
+            }
+        }
+    }
+
+    &-right {
+        margin-left: auto;
+
+        svg {
+            color: #ccc;
+            margin-left: 16px;
+            cursor: pointer;
+        }
+    }
+}
