@@ -1,7 +1,5 @@
 # SCSS-github-homepage
 
-# Full Responsive E-book designed with Bootstrap
-
 <h3>This site is made by using HTML and SCSS .</h3>
 
 <h3>Additionally I used <a href="https://icomoon.io/#docs/font-face"><b>IcoMoon App</b> </a> (for icons) </h3>
